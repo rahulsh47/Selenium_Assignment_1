@@ -378,7 +378,6 @@ public class Home {
 
         //Clicking the Next Button to move to the Place order Section
         WebElement NextButtonClick = driver.findElement(By.cssSelector("button[data-role='opc-continue'][type='submit'].button.action.continue.primary"));
-        Thread.sleep(3000);
         NextButtonClick.click();
 
         //Placing the Order
